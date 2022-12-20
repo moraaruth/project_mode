@@ -1,5 +1,6 @@
 import hotBg from './assets/sunny.jpeg';
 import coldBg from './assets/cold.jpg';
+import Description from './components/Descriptions.jsx';
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
               </div>
 
             </div>
-            <description />
+            <Description />
       </div>
     </div>
     </div>
