@@ -1,9 +1,20 @@
 import hotBg from './assets/sunny.jpeg';
 import coldBg from './assets/cold.jpg';
 import Description from './components/Descriptions.jsx';
+import { useEffect } from 'react';
+import { getWeatherData } from "./weather.js";
 
 function App() {
+useEffect (() => {
+  const fetchWeatherData = async () => {
+    const data = await getWeatherData('nairobi');
+    console.log(data)
 
+  };
+  fetchWeatherData();
+  
+
+}, [])
 
   return (
     <div className='app' style={{background: `url(${coldBg})`}}>
