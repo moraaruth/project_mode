@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,106 +9,115 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="index.css">
-    
+
     <title>Weather app</title>
 </head>
+
 <body>
     <div class="card text-center">
 
-        <div class="card-body">
-         
-          <form id="form">
-            <input type="text" id="city" name="current_city" placeholder="Enter City ...">
-            <button class="btn btn-primary">Check Weather</button>
-          </form><br>
+       
+
+            <form id="form">
+                <input type="text" id="city" name="current_city" placeholder="Enter City ...">
+                <button class="btn btn-primary">Check Weather</button>
+            </form><br>
+
+    
+    </div>
+    <br><br>
+    <form>
+        <div class="row">
+
           
-        </div>
-      
-      </div>
-      <br><br>
-      <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <p class="card-text">City, Country</p>
+                            <p>icon</p>
+                            <p class="card-text">Description</p>
+
+
+                        </div>
+                    </div>
+                </div>
+          
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <p class="card-text" style="padding-bottom: 6rem;">36 C
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+           
+    </form>
+    </div>
+    <br><br><br>
+    <div class="row">
         <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">wind speed</h5>
+                    <p class="card-text" id="wind">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br><br><br>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
         </div>
         <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">min</h5>
+                    <p class="card-text" id="min">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
             </div>
-          </div>
         </div>
-      </div><br>
-      <div class="row">
+    </div>
+    <br>
+    <div class="row">
         <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">max</h5>
+                    <p class="card-text" id="max">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
             </div>
-          </div>
         </div>
         <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">pressure</h5>
+                    <p class="card-text" id="pressure">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div><br>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">humidity</h5>
+                    <p class="card-text" id="humidity">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">feels like</h5>
+                    <p class="card-text" id="feels">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="index.js"></script>
 </body>
+
 </html>
