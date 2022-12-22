@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+<!-- 
+# Independent Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+##### By Ruth Moraa
 
-In the project directory, you can run:
+### This project involves code weather app.
 
-### `npm start`
+## Table of Content
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Description](#description)
+- [Technology Used](#technology-used)
+- [BDD](#BDD)
+- [Github-Pages link](#gh-pages)
+- [Reference](#reference)
+- [Licence](#licence)
+- [Authors Info](#author-Info)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
 
-### `npm test`
+<p>This project involves  a weather app.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Requirements
 
-### `npm run build`
+- Either a computer,phone,tablet or an Ipad
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- With access to the Internet you are able to see my content and read through.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation Process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- In terminal `git clone https://github.com/moraaruth/project_mode` to desired local folder.
 
-### `npm run eject`
+- cd into the cloned repo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Open the index.html/ index.js file to view the application on your preffered web browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Install npm to carry out tests.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- install json server.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technology Used
 
-## Learn More
+- HTML - which was used to build the structure of the pages.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- CSS - which was used to style the pages incuding the left aside navigation bar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Reactjs - which is used to make my project interactive and fun.
 
-### Code Splitting
+- json - to fetch data which was used for this project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## BDD
 
-### Analyzing the Bundle Size
+- My_weather_app is a weather website that shows the current weather for any location.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Used the Openweathermap API to fetch weather data.
 
-### Making a Progressive Web App
+- When user inputs current location and Enter, user sees the weather of that location.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Code challenge flatacuties
 
-### Advanced Configuration
+- Shows search option to input location, location, weather in C or F, temperature, pressure, how it feels like,
+  max, min, humidity and wind speed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- You are able to change temperature from C to F.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Github Pages link
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Unable to get link because it is a private repository.
+
+
+## Reference
+
+- Materialize CSS
+- MDN web docs
+
+## Licence
+
+MIT License
+
+Copyright (c) [2019][ruth moraa]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Authors Info
+
+Slack Profile – [Ruth Moraa](https://app.slack.com/client/T0101L740P4/C049136L2R3)
+
+LinkedIn – [Ruth Moraa](https://www.linkedin.com/Ruth)
+
+ -->
