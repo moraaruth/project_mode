@@ -4,6 +4,7 @@ import Description from './components/Descriptions.jsx';
 import { useEffect, useState } from 'react';
 import { getWeatherData } from "./weather.js";
 
+
 function App() {
 
   const [city, setCity] = useState ('kampala')
